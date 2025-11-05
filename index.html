@@ -1,0 +1,790 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--=============== FAVICON ===============-->
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicons/favicon-32x32.png">
+    <link rel="shortcut icon" href="assets/favicons/favicon.ico">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#a789d4">
+
+    <!--=============== BOXICONS ===============-->
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+
+    <!--=============== SWIPER CSS ===============-->
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="assets/css/styles.css">
+
+    <title> Portfolio Laura </title>
+</head>
+
+<body>
+    <!--=============== HEADER ===============-->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav__logo">Laura</a>
+
+            <div class="nav__menu">
+                <ul class="nav__list">
+                    <li class="nav__item ">
+                        <a href="#home" class="nav__link">
+                            <i class='bx bx-home'></i>
+                        </a>
+                    </li>
+
+                    <li class="nav__item ">
+                        <a href="#about" class="nav__link">
+                            <i class='bx bx-user'></i>
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#skills" class="nav__link">
+                            <i class='bx bx-book'></i>
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#work" class="nav__link">
+                            <i class='bx bx-briefcase-alt-2'></i>
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#contact" class="nav__link">
+                            <i class='bx bx-message-square-dots'></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <!--=============== theme change button ===============-->
+            <i class='bx bx-moon change-theme change-theme-button' id="theme-button"></i>
+
+        </nav>
+    </header>
+
+    <!--=============== MAIN ===============-->
+    <main class="main">
+        <!--=============== HOME ===============-->
+        <section class="home section" id="home">
+            <div class="home__container container grid">
+                <div class="home__data">
+                    <span class="home__greeting">Hola, soy</span>
+                    <h1 class="home__name">Laura Llerandi</h1>
+                    <h3 class="home__education">Diseñadora Gráfica<br>Community Manager</br></h3>
+
+                    <div class="home__button">
+                        <a download="" href="assets/pdf/CV Community Manager.pdf" class="button button--ghost">
+                            Descargar CV
+                        </a>
+
+                        <a href="#about" class="button">Sobre mí</a>
+                    </div>
+                </div>
+
+                <div class="home__handle">
+                    <img src="assets/img/Perfil-1.png" alt="" class="home__img">
+                </div>
+
+                <div class="home__social">
+                    <a href="https://www.linkedin.com/in/laura-llerandi/" target="_blank" class="home__social-link">
+                        <i class='bx bxl-linkedin'></i>
+                    </a>
+                    <a href="https://www.behance.net/laurallerandi" target="_blank" class="home__social-link">
+                        <i class='bx bxl-behance'></i>
+                    </a>
+                    <a href="mailto:lauullerandi@gmail.com" target="_blank" class="home__social-link">
+                        <i class='bx bxl-gmail'></i>
+                    </a>
+                </div>
+
+                <a href="#about" class="home__scroll">
+                    <i class='bx bx-mouse home__scroll-icon'></i>
+                    <span class="home__scroll-name">Scroll Down</span>
+                </a>
+            </div>
+        </section>
+
+        <!--=============== ABOUT ===============-->
+        <section class="about section" id="about">
+            <span class="section__subtitle">Introducción</span>
+            <h2 class="section__title">Sobre mí</h2>
+
+            <div class="about__container container grid">
+                <img src="assets/img/Perfil-4.png" alt="" class="about__img">
+
+                <div class="about__data">
+                    <div class="about__info">
+                        <div class="about__box">
+                            <i class='bx bx-award about__icon'></i>
+                            <h3 class="about__title">Experiencia</h3>
+                            <span class="about__subtitle">3 años trabajando</span>
+                        </div>
+                        <div class="about__box">
+                            <i class='bx bx-briefcase-alt about__icon'></i>
+                            <h3 class="about__title">Trabajos</h3>
+                            <span class="about__subtitle">10 Proyectos</span>
+                        </div>
+                        <div class="about__box">
+                            <i class='bx bx-support about__icon'></i>
+                            <h3 class="about__title">Soporte</h3>
+                            <span class="about__subtitle">Online 24/7</span>
+                        </div>
+                    </div>
+
+                    <p class="about__description">
+                        Diseñadora Gráfica y Community Manager, con experiencia en crear identidades visuales 
+                        y estrategias digitales que potencian marcas en redes sociales. Combino creatividad y 
+                        planificación para generar contenidos atractivos, coherentes y efectivos.
+                    </p>
+
+                    <a href="#contact" class="button about__button-contact">Contacto</a>
+                </div>
+            </div>
+        </section>
+
+        <!--=============== SKILLS ===============-->
+        <section class="skills section" id="skills">
+            <span class="section__subtitle">Mis Habilidades</span>
+            <h2 class="section__title">Mi Experiencia</h2>
+
+            <div class="skills__container container grid">
+                <div class="skills__content">
+                    <h3 class="skills__title">Diseño</h3>
+
+                    <div class="skills__box">
+                        <div class="skills__group">
+                            <div class="skills__data">
+                                <i class='bx bxs-badge-check'></i>
+
+                                <div>
+                                    <h3 class="skills__name">Photoshop</h3>
+                                    <span class="skills__level">Avanzado</span>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <i class='bx bxs-badge-check'></i>
+
+                                <div>
+                                    <h3 class="skills__name">Illustrator</h3>
+                                    <span class="skills__level">Intermedio</span>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <i class='bx bxs-badge-check'></i>
+
+                                <div>
+                                    <h3 class="skills__name">Canva</h3>
+                                    <span class="skills__level">Avanzado</span>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <i class='bx bxs-badge-check'></i>
+
+                                <div>
+                                    <h3 class="skills__name">CapCut</h3>
+                                    <span class="skills__level">Avanzado</span>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <i class='bx bxs-badge-check'></i>
+
+                                <div>
+                                    <h3 class="skills__name">Premiere</h3>
+                                    <span class="skills__level">Avanzado</span>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="skills__group">
+                            <div class="skills__data">
+                                <i class='bx bxs-badge-check'></i>
+
+                                <div>
+                                    <h3 class="skills__name">Figma</h3>
+                                    <span class="skills__level">Intermedio</span>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <i class='bx bxs-badge-check'></i>
+
+                                <div>
+                                    <h3 class="skills__name">Identidad Visual & Branding</h3>
+                                    <span class="skills__level">Avanzado</span>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <i class='bx bxs-badge-check'></i>
+
+                                <div>
+                                    <h3 class="skills__name">Diseño Web</h3>
+                                    <span class="skills__level">Avanzado</span>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skills__content">
+                    <h3 class="skills__title">Social Media</h3>
+
+                    <div class="skills__box">
+                        <div class="skills__group">
+                            <div class="skills__data">
+                                <i class='bx bxs-badge-check'></i>
+
+                                <div>
+                                    <h3 class="skills__name">Diseño de contenido</h3>
+                                    <span class="skills__level">Avanzado</span>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <i class='bx bxs-badge-check'></i>
+
+                                <div>
+                                    <h3 class="skills__name">Planificación y estrategia de contenido</h3>
+                                    <span class="skills__level">Avanzado</span>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <i class='bx bxs-badge-check'></i>
+
+                                <div>
+                                    <h3 class="skills__name">Meta Ads</h3>
+                                    <span class="skills__level">Intermedio</span>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="skills__group">
+                            <div class="skills__data">
+                                <i class='bx bxs-badge-check'></i>
+
+                                <div>
+                                    <h3 class="skills__name">Análisis de métricas y reportes</h3>
+                                    <span class="skills__level">Intermedio</span>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <i class='bx bxs-badge-check'></i>
+
+                                <div>
+                                    <h3 class="skills__name">Copywriting y storytelling digital</h3>
+                                    <span class="skills__level">Avanzado</span>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <i class='bx bxs-badge-check'></i>
+
+                                <div>
+                                    <h3 class="skills__name">Tendencias y adaptabilidad de contenido</h3>
+                                    <span class="skills__level">Avanzado</span>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+        </section>
+
+        <!--=============== SERVICES ===============-->
+        <section class="services section">
+            <span class="section__subtitle">Mis Servicios</span>
+            <h2 class="section__title">¿Qué ofrezco?</h2>
+
+            <div class="services__container container grid">
+                <div class="services__card">
+                    <div class="serv">
+                        <h3 class="services__title">Diseño Gráfico<br>& Visual</h3>
+
+                        <span class="services__button">
+                            Ver más <i class='bx bx-right-arrow services__icon'></i>
+                        </span>
+                    </div>
+
+
+                    <div class="services__modal">
+                        <div class="services__modal-content">
+                            <i class='bx bx-x services__modal-close'></i>
+
+                            <h3 class="services__modal-title">Diseño Gráfico & Visual</h3>
+
+                            <p class="services__modal-description">
+                                Transformo ideas en piezas visuales atractivas, modernas 
+                                y coherentes con la identidad de cada marca.
+                            </p>
+
+                            <ul class="services__modal-list">
+                                <li class="services__modal-item">
+                                    <i class='bx bx-check-circle'></i>
+                                    <p class="services__modal-info">
+                                        Diseño de contenido gráfico para redes sociales.
+                                    </p>
+                                </li>
+
+                                <li class="services__modal-item">
+                                    <i class='bx bx-check-circle'></i>
+                                    <p class="services__modal-info">
+                                        Creación de identidad visual y branding.
+                                    </p>
+                                </li>
+
+                                <li class="services__modal-item">
+                                    <i class='bx bx-check-circle'></i>
+                                    <p class="services__modal-info">
+                                        Diseño de material publicitario digital e impreso.
+                                    </p>
+                                </li>
+
+                                <li class="services__modal-item">
+                                    <i class='bx bx-check-circle'></i>
+                                    <p class="services__modal-info">
+                                        Adaptación visual para distintos formatos y plataformas.
+                                    </p>
+                                </li>
+
+                                <li class="services__modal-item">
+                                    <i class='bx bx-check-circle'></i>
+                                    <p class="services__modal-info">
+                                        Desarrollo de presentaciones y piezas corporativas.
+                                    </p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="services__card">
+                    <div class="serv">
+                        <h3 class="services__title">Diseño Web</h3>
+
+                        <span class="services__button">
+                            Ver más <i class='bx bx-right-arrow services__icon'></i>
+                        </span>
+                    </div>
+
+
+                    <div class="services__modal">
+                        <div class="services__modal-content">
+                            <i class='bx bx-x services__modal-close'></i>
+
+                            <h3 class="services__modal-title">Diseño Web</h3>
+
+                            <p class="services__modal-description">
+                                Diseño sitios web modernos, funcionales y alineados 
+                                con la identidad de marca, priorizando la experiencia del usuario.
+                            </p>
+
+                            <ul class="services__modal-list">
+                                <li class="services__modal-item">
+                                    <i class='bx bx-check-circle'></i>
+                                    <p class="services__modal-info">
+                                        Maquetación en Figma y prototipado de interfaces.
+                                    </p>
+                                </li>
+
+                                <li class="services__modal-item">
+                                    <i class='bx bx-check-circle'></i>
+                                    <p class="services__modal-info">
+                                        Creación de páginas en WordPress y gestores visuales.
+                                    </p>
+                                </li>
+
+                                <li class="services__modal-item">
+                                    <i class='bx bx-check-circle'></i>
+                                    <p class="services__modal-info">
+                                        Diseño responsive (adaptado a dispositivos móviles).
+                                    </p>
+                                </li>
+
+                                <li class="services__modal-item">
+                                    <i class='bx bx-check-circle'></i>
+                                    <p class="services__modal-info">
+                                        Optimización visual para experiencia de usuario (UX/UI).
+                                    </p>
+                                </li>
+
+                                <li class="services__modal-item">
+                                    <i class='bx bx-check-circle'></i>
+                                    <p class="services__modal-info">
+                                        Integración con redes sociales y elementos interactivos.
+                                    </p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="services__card">
+                    <h3 class="services__title">Gestión de<br>Redes Sociales</h3>
+
+                    <span class="services__button">
+                        Ver más <i class='bx bx-right-arrow services__icon'></i>
+                    </span>
+
+                    <div class="services__modal">
+                        <div class="services__modal-content">
+                            <i class='bx bx-x services__modal-close'></i>
+
+                            <h3 class="services__modal-title">Gestión de Redes Sociales</h3>
+
+                            <p class="services__modal-description">
+                                Planifico, gestiono y optimizo la presencia digital de marcas, 
+                                creando estrategias que conectan con la audiencia y potencian resultados.
+                            </p>
+
+                            <ul class="services__modal-list">
+                                <li class="services__modal-item">
+                                    <i class='bx bx-check-circle'></i>
+                                    <p class="services__modal-info">
+                                        Desarrollo planes de contenidos mensuales.
+                                    </p>
+                                </li>
+
+                                <li class="services__modal-item">
+                                    <i class='bx bx-check-circle'></i>
+                                    <p class="services__modal-info">
+                                        Gestión integral de comunidades.
+                                    </p>
+                                </li>
+
+                                <li class="services__modal-item">
+                                    <i class='bx bx-check-circle'></i>
+                                    <p class="services__modal-info">
+                                        Creación de estrategias de engagement.
+                                    </p>
+                                </li>
+
+                                <li class="services__modal-item">
+                                    <i class='bx bx-check-circle'></i>
+                                    <p class="services__modal-info">
+                                        Análisis de métricas y performance.
+                                    </p>
+                                </li>
+
+                                <li class="services__modal-item">
+                                    <i class='bx bx-check-circle'></i>
+                                    <p class="services__modal-info">
+                                        Planificación y ejecución de campañas publicitarias (Meta Ads).
+                                    </p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="services__card">
+                    <h3 class="services__title">Estrategia Digital<br>& Creatividad</h3>
+
+                    <span class="services__button">
+                        Ver más <i class='bx bx-right-arrow services__icon'></i>
+                    </span>
+
+                    <div class="services__modal">
+                        <div class="services__modal-content">
+                            <i class='bx bx-x services__modal-close'></i>
+
+                            <h3 class="services__modal-title">Estrategia Digital & Creatividad</h3>
+
+                            <p class="services__modal-description">
+                                Integro diseño y comunicación para lograr experiencias digitales innovadoras y efectivas.
+                            </p>
+
+                            <ul class="services__modal-list">
+                                <li class="services__modal-item">
+                                    <i class='bx bx-check-circle'></i>
+                                    <p class="services__modal-info">
+                                        Storytelling y redacción creativa para redes.
+                                    </p>
+                                </li>
+
+                                <li class="services__modal-item">
+                                    <i class='bx bx-check-circle'></i>
+                                    <p class="services__modal-info">
+                                        Identificación de tendencias y adaptación de contenido.
+                                    </p>
+                                </li>
+
+                                <li class="services__modal-item">
+                                    <i class='bx bx-check-circle'></i>
+                                    <p class="services__modal-info">
+                                        Desarrollo de conceptos visuales alineados a campañas.
+                                    </p>
+                                </li>
+
+                                <li class="services__modal-item">
+                                    <i class='bx bx-check-circle'></i>
+                                    <p class="services__modal-info">
+                                        Optimización de presencia online según objetivos de marca.
+                                    </p>
+                                </li>
+
+                                <li class="services__modal-item">
+                                    <i class='bx bx-check-circle'></i>
+                                    <p class="services__modal-info">
+                                        Propuestas creativas para lanzamientos y eventos digitales.
+                                    </p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--=============== WORK ===============-->
+        <section class="work section" id="work">
+            <span class="section__subtitle">Mi Portfolio</span>
+            <h2 class="section__title">Mis Trabajos</h2>
+
+            <div class="work__filters">
+                <span class="work__item active-work" data-filter='all'>Todos</span>
+                <span class=" work__item" data-filter='.web'>Diseño</span>
+                <span class=" work__item" data-filter='.movil'>Social Media</span>
+                <span class=" work__item" data-filter='.design'>Web</span>
+            </div>
+
+            <div class="work__container container grid">
+                <div class="work__card mix web">
+                    <img src="assets/img/trabajo1.png" alt="" class="work__img">
+
+                    <h3 class="work__title">Manual de Marca</h3>
+
+                    <a href="https://www.behance.net/gallery/234512363/Manual-de-Marca-HidraTec" class="work__button">
+                        Ver más <i class='bx bx-right-arrow work__icon'></i>
+                    </a>
+                </div>
+
+                <div class="work__card mix web">
+                    <img src="assets/img/trabajo2.png" alt="" class="work__img">
+
+                    <h3 class="work__title">Identidad Visual</h3>
+
+                    <a href="https://www.behance.net/gallery/234693195/Identidad-Visual-Mas-dulce-que-yo" class="work__button">
+                        Ver más <i class='bx bx-right-arrow work__icon'></i>
+                    </a>
+                </div>
+
+                <div class="work__card mix movil">
+                    <img src="assets/img/trabajo3.jpg" alt="" class="work__img">
+
+                    <h3 class="work__title">Social Media</h3>
+
+                    <a href="https://www.behance.net/gallery/234928119/Social-Media-Galia-Auto-Haus" class="work__button">
+                        Ver más <i class='bx bx-right-arrow work__icon'></i>
+                    </a>
+                </div>
+
+                <div class="work__card mix movil">
+                    <img src="assets/img/trabajo4.jpg" alt="" class="work__img">
+
+                    <h3 class="work__title">Social Media</h3>
+
+                    <a href="https://www.behance.net/gallery/234987651/Social-Media-Real-Force" class="work__button">
+                        Ver más <i class='bx bx-right-arrow work__icon'></i>
+                    </a>
+                </div>
+
+                <div class="work__card mix movil">
+                    <img src="assets/img/trabajo5.jpg" alt="" class="work__img">
+
+                    <h3 class="work__title">Social Media</h3>
+
+                    <a href="https://www.behance.net/gallery/234990807/Social-Media-VerdeFitness" class="work__button">
+                        Ver más <i class='bx bx-right-arrow work__icon'></i>
+                    </a>
+                </div>
+
+                <div class="work__card mix design">
+                    <img src="assets/img/trabajo6.jpg" alt="" class="work__img">
+
+                    <h3 class="work__title">Diseño Web</h3>
+
+                    <a href="https://www.behance.net/gallery/235215551/Diseno-Web-HidraTec" class="work__button">
+                        Ver más <i class='bx bx-right-arrow work__icon'></i>
+                    </a>
+                </div>
+
+            </div>
+        </section>
+
+
+        <!--=============== CONTACT ===============-->
+        <section class="contact section" id="contact">
+            <sapn class="section__subtitle">Ponte en</sapn>
+            <h3 class="section__title">Contacto</h3>
+
+            <div class="contact__container container grid">
+                <div class="contact__content">
+                    <h3 class="contact__title contact__title-info">Háblame</h3>
+
+                    <div class="contact__info">
+                        <div class="contact__card">
+                            <i class='bx bx-mail-send contact__card-icon'></i>
+                            <h3 class="contact__card-title">Email</h3>
+                            <span class="contact__card-data">lauullerandi@gmail.com</span>
+
+                            <a href="mailto:lauullerandi@gmail.com" target="_blank" class="contact__button">
+                                Escríbeme <i class='bx bx-right-arrow contact__button-icon'></i>
+                            </a>
+                        </div>
+
+                        <div class="contact__card">
+                            <i class='bx bxl-whatsapp contact__card-icon'></i>
+                            <h3 class="contact__card-title">Whatsapp</h3>
+                            <span class="contact__card-data">+54 9 11 6939 5218</span>
+
+                            <a href="https://api.whatsapp.com/send?phone=+5491169395218&text=Hola Laura!" target="_blank"
+                                class="contact__button">
+                                Escríbeme <i class='bx bx-right-arrow contact__button-icon'></i>
+                            </a>
+                        </div>
+
+                        <div class="contact__card">
+                            <i class='bx bxl-linkedin contact__card-icon'></i>
+                            <h3 class="contact__card-title">LinkedIn</h3>
+                            <span class="contact__card-data">laura-llerandi</span>
+
+                            <a href="https://www.linkedin.com/in/laura-llerandi/" target="_blank" class="contact__button">
+                                Escríbeme <i class='bx bx-right-arrow contact__button-icon'></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact__content">
+                    <h3 class="contact__title contact__title-form">Escríbeme un mensaje</h3>
+
+                    <form id="contact__form" class="contact__form">
+                        <div class="contact__form-div">
+                            <label for="" class="contact__form-tag">Nombre</label>
+                            <input type="text" name="user_name" placeholder="Tu Nombre" class="contact__form-input" required />
+                        </div>
+
+                        <div class="contact__form-div">
+                            <label for="" class="contact__form-tag">Email</label>
+                            <input type="email" name="user_email" placeholder="Tu Email" class="contact__form-input" required />
+                        </div>
+
+                        <div class="contact__form-div contact__form-area">
+                            <label for="" class="contact__form-tag">Mensaje</label>
+                            <textarea name="message" id="" cols="30" rows="10" placeholder="Escribe tu mensaje"
+                                class="contact__form-input "></textarea>
+                        </div>
+
+
+                        <button type="submit" class="button">
+                            Enviar Mensaje
+                        </button>
+                    </form>
+
+                    <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+                    <script>
+                        (function() {
+                        emailjs.init("KFw0IUkfkghrKC3qB");
+                        })();
+
+                        document.getElementById("contact__form").addEventListener("submit", function(e) {
+                        e.preventDefault();
+
+                        emailjs.sendForm("service_i3p2osk","template_ozwq9gg", this)
+                        .then(function() {
+                        alert("Mensaje enviado con éxito 🎉");
+                        }, function(error) {
+                        alert("Error al enviar el mensaje: " + JSON.stringify(error));
+                        });
+                        });
+                    </script>
+
+                </div>
+
+        </section>
+    </main>
+
+    <!--=============== FOOTER ===============-->
+    <footer class="footer">
+        <div class="footer__container container">
+            <h1 class="footer__title">Laura</h1>
+
+            <ul class="footer__list">
+
+                <li class="footer__item">
+                    <a href="#" class="footer__link">Home</a>
+                </li>
+                <li class="footer__item">
+                    <a href="#about" class="footer__link">Sobre mí</a>
+                </li>
+                <li class="footer__item">
+                    <a href="#skills" class="footer__link">Habilidades</a>
+                </li>
+                <li class="footer__item">
+                    <a href="#work" class="footer__link">Trabajos</a>
+                </li>
+                <li class="footer__item">
+                    <a href="#contact" class="footer__link">Contacto</a>
+                </li>
+            </ul>
+
+            <ul class="footer__social">
+                <li class="footer__social-item">
+                    <a href="#" target="_blank" class="footer__social-link">
+                        <i class='bx bxl-facebook footer__social-icon'></i>
+                    </a>
+                </li>
+                <li class="footer__social-item">
+                    <a href="#" target="_blank" class="footer__social-link">
+                        <i class='bx bxl-twitter footer__social-icon'></i>
+                    </a>
+                </li>
+                <li class="footer__social-item">
+                    <a href="#" target="_blank" class="footer__social-link">
+                        <i class='bx bxl-linkedin footer__social-icon'></i>
+                    </a>
+                </li>
+                <li class="footer__social-item">
+                    <a href="#" target="_blank" class="footer__social-link">
+                        <i class='bx bxl-instagram footer__social-icon'></i>
+                    </a>
+                </li>
+            </ul>
+
+            <span class="footer__copy">
+                &#169; 2025 Laura Llerandi. All rights reserved.
+            </span>
+        </div>
+    </footer>
+
+    <!--=============== SCROLLREVEAL ===============-->
+
+    <!-- <script src="assets/js/scrollreveal.min.js"></script> -->
+    <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
+
+    <!--=============== SWIPER JS ===============-->
+    <script src="assets/js/swiper-bundle.min.js"></script>
+
+    <!--=============== MIXITUP FILTER ===============-->
+    <script src="assets/js/mixitup.min.js"></script>
+
+    <!--=============== MAIN JS ===============-->
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
